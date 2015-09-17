@@ -3,15 +3,15 @@
   font-family: 'Poiret One';
   font-style: normal;
   font-weight: 400;
-  src: url("poiretone.eot");
-  src: local("Poiret One"), local("PoiretOne-Regular"), url("poiretone.woff") format("woff"), url("poiretone.svg#PoiretOne") format("svg"), url("poiretone.eot?#iefix") format("embedded-opentype"), url("poiretone.ttf") format("truetype");
+  src: url('fonts/poiretone.eot');
+  src: local('Poiret One'), local('PoiretOne-Regular'), url('fonts/poiretone.woff') format('woff'), url('fonts/poiretone.svg#PoiretOne') format('svg'), url('fonts/poiretone.eot?#iefix') format('embedded-opentype'), url('fonts/poiretone.ttf') format('truetype');
 }
 @font-face {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
-  src: url("raleway.eot");
-  src: local("Raleway"), url("raleway.woff") format("woff"), url("raleway.svg#Raleway") format("svg"), url("raleway.eot?#iefix") format("embedded-opentype"), url("raleway.ttf") format("truetype");
+  src: url('fonts/raleway.eot');
+  src: local('Raleway'), url('fonts/fonts/raleway.woff') format('woff'), url('fonts/fonts/raleway.svg#Raleway') format('svg'), url('fonts/raleway.eot?#iefix') format('embedded-opentype'), url('fonts/raleway.ttf') format('truetype');
 }
 /*! adapt from getbootstrap.com */
 *,
