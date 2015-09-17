@@ -69,6 +69,5 @@ img {
 }
 .kanan {
 	width: 66.66666667%;
-	float: right;
-	padding-left: 25px;
+	left: 33.33333333%;
 }
