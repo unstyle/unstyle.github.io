@@ -57,6 +57,12 @@ img {
     margin-right: auto;
     margin-left: auto;
 }
+.wadah:before,
+.wadah:after {
+	clear: both;
+	display: table;
+	content: ""
+}
 @media (min-width:768px) {
 .wadah { width: 750px; }
 }
