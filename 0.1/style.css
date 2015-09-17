@@ -72,10 +72,11 @@ img {
 .section {
   position: relative;
   min-height: 1px;
+  float: left;
 }
 .kanan {
-	width: 66.66666667%;
-	left: 33.33333333%;
+	width: 70.8333%;
+    *width: 70.8023%;
 }
 .kanan:before {
 	content: "";
@@ -87,9 +88,7 @@ img {
 .kanan .widget {
 	padding-left: 25px;
 }
-.kiri {
-	width: 21%;
-	height: 100%;
-	position: fixed;
-	border-right: 1px solid #ccc;
+.kiri, .bawah {
+	width: 29.1667%;
+    *width: 29.1357%;
 }
