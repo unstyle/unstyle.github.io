@@ -77,6 +77,13 @@ img {
 	width: 66.66666667%;
 	left: 33.33333333%;
 }
+.kanan:before {
+	content: "";
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	border-right: 1px solid #ccc;
+}
 .kiri {
 	width: 21%;
 	height: 100%;
