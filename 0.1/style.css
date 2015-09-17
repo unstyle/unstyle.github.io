@@ -84,6 +84,9 @@ img {
 	bottom: 0;
 	border-right: 1px solid #ccc;
 }
+.kanan .widget {
+	padding-left: 25px;
+}
 .kiri {
 	width: 21%;
 	height: 100%;
