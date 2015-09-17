@@ -11,7 +11,7 @@
   font-style: normal;
   font-weight: 400;
   src: url('fonts/raleway.eot');
-  src: local('Raleway'), url('fonts/fonts/raleway.woff') format('woff'), url('fonts/fonts/raleway.svg#Raleway') format('svg'), url('fonts/raleway.eot?#iefix') format('embedded-opentype'), url('fonts/raleway.ttf') format('truetype');
+  src: local('Raleway'), url('fonts/raleway.woff') format('woff'), url('fonts/raleway.svg#Raleway') format('svg'), url('fonts/raleway.eot?#iefix') format('embedded-opentype'), url('fonts/raleway.ttf') format('truetype');
 }
 /*! adapt from getbootstrap.com */
 *,
