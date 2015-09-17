@@ -1,101 +1,24 @@
-/*! Normalize v3.0.3 | MIT License | github.com/necolas/normalize.css */html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height:auto}input[type="search"]{-webkit-appearance:textfield;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:bold}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}::-webkit-selection{background:rgba(68,68,68,.9);color:#eee}::-moz-selection{background:rgba(68,68,68,.9);color:#eee}::-ms-selection{background:rgba(68,68,68,.9);color:#eee}::-o-selection{background:rgba(68,68,68,.9);color:#eee}::selection{background:rgba(68,68,68,.9);color:#eee}/*! Source: google.com/fonts */
-@font-face {
-  font-family: 'Poiret One';
-  font-style: normal;
-  font-weight: 400;
-  src: url('fonts/poiretone.eot');
-  src: local('Poiret One'), local('PoiretOne-Regular'), url('fonts/poiretone.woff') format('woff'), url('fonts/poiretone.svg#PoiretOne') format('svg'), url('fonts/poiretone.eot?#iefix') format('embedded-opentype'), url('fonts/poiretone.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 400;
-  src: url('fonts/raleway.eot');
-  src: local('Raleway'), url('fonts/raleway.woff') format('woff'), url('fonts/raleway.svg#Raleway') format('svg'), url('fonts/raleway.eot?#iefix') format('embedded-opentype'), url('fonts/raleway.ttf') format('truetype');
-}
-/*! adapt from getbootstrap.com */
-*,
-*:before,
-*:after {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-html {
-    font-size: 10px;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-body {
-    font-family: 'Raleway';
-    background: url(bg.png) #ddd;
-    color: #3d454c;
-    font-size: 15px;
-    line-height: 1.5;
-}
-a,
-a:hover {
-    color: #009eec;
-    text-decoration: none;
-    outline: none;
-    outline: 0;
-    display: inline-block;
-}
-a:after {
-    display: block;
-    content: "";
-    height: 1px;
-    width: 0%;
-    background: #009eec;
-    -webkit-transition: width 0.5s ease;
-    -moz-transition: width 0.5s ease;
-    -ms-transition: width 0.5s ease;
-    -o-transition: width 0.5s ease;
-    transition: width 0.5s ease;
-}
-a:hover:after {
-    width: 100%;
-}
-img {
-    vertical-align: middle;
-}
-.wadah {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
-.wadah:before,
-.wadah:after {
-	clear: both;
-	display: table;
-	content: ""
-}
-@media (min-width:768px) {
-.wadah { width: 750px; }
-}
-@media (min-width:992px) {
-.wadah { width: 970px; }
-}
+/*! Normalize v3.0.3 | MIT License | github.com/necolas/normalize.css */html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height:auto}input[type="search"]{-webkit-appearance:textfield;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:bold}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}::-webkit-selection{background:rgba(68,68,68,.9);color:#eee}::-moz-selection{background:rgba(68,68,68,.9);color:#eee}::-ms-selection{background:rgba(68,68,68,.9);color:#eee}::-o-selection{background:rgba(68,68,68,.9);color:#eee}::selection{background:rgba(68,68,68,.9);color:#eee}/*! Source: google.com/fonts */@font-face{font-family:'Poiret One';font-style:normal;font-weight:400;src:url('fonts/poiretone.eot');src:local('Poiret One'),local('PoiretOne-Regular'),url('fonts/poiretone.woff') format('woff'),url('fonts/poiretone.svg#PoiretOne') format('svg'),url('fonts/poiretone.eot?#iefix') format('embedded-opentype'),url('fonts/poiretone.ttf') format('truetype')}@font-face{font-family:'Raleway';font-style:normal;font-weight:400;src:url('fonts/raleway.eot');src:local('Raleway'),url('fonts/raleway.woff') format('woff'),url('fonts/raleway.svg#Raleway') format('svg'),url('fonts/raleway.eot?#iefix') format('embedded-opentype'),url('fonts/raleway.ttf') format('truetype')}/*! adapt from getbootstrap.com */*,*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}html{font-size:10px;-webkit-tap-highlight-color:rgba(0,0,0,0)}body{font-family:'Raleway';background:url(bg.png) #ddd;color:#3d454c;font-size:15px;line-height:1.5}a,a:hover{color:#009eec;text-decoration:none;outline:none;outline:0;display:inline-block}a:after{display:block;content:"";height:1px;width:0%;background:#009eec;-webkit-transition:width 0.5s ease;-moz-transition:width 0.5s ease;-ms-transition:width 0.5s ease;-o-transition:width 0.5s ease;transition:width 0.5s ease}a:hover:after{width:100%}img{vertical-align:middle}.wadah{padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}.wadah:before,.wadah:after{clear:both;display:table;content:""}@media (min-width:768px){.wadah{width:750px}}@media (min-width:992px){.wadah{width:970px}}
 .section {
   position: relative;
   min-height: 1px;
   float: left;
 }
 .kanan {
-	width: 70.8333%;
-    *width: 70.8023%;
+  width: 70.8333%;
+  *width: 70.8023%;
 }
 .kanan:before {
-	content: "";
-	position: fixed;
-	top: 0;
-	bottom: 0;
-	border-right: 1px solid #ccc;
+  content: "";
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  border-right: 1px solid #ccc;
 }
 .kanan .widget {
-	padding-left: 25px;
+  padding-left: 25px;
 }
 .kiri, .bawah {
-	width: 29.1667%;
-    *width: 29.1357%;
+  width: 29.1667%;
+  *width: 29.1357%;
 }
