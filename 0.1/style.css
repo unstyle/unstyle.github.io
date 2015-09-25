@@ -4,6 +4,11 @@
   min-height: 1px;
   float: left;
 }
+.kiri {
+  width: 29.1667%;
+  *width: 29.1357%;
+  margin-right: -100%;
+}
 .kanan {
   width: 70.8333%;
   *width: 70.8023%;
@@ -14,18 +19,9 @@
   clear: both;
   content: "";
   position: fixed;
-  top: 0;
-  bottom: 0;
+  height: 100%;
   border-right: 1px solid #ccc;
 }
 .kanan .widget {
   padding-left: 25px;
-}
-.kiri, .bawah {
-  width: 29.1667%;
-  *width: 29.1357%;
-}
-.kiri {
-  position: fixed;
-  margin-right: -100%;
 }
