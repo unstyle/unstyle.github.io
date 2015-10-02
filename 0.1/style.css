@@ -25,6 +25,9 @@
 .kanan .widget {
   padding-left: 25px;
 }
+.kiri a:after {
+  display: none !important;
+}
 .pala {
   padding: 40px 25px 0 0;
   text-align: right;
