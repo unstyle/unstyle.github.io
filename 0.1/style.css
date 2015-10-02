@@ -25,3 +25,138 @@
 .kanan .widget {
   padding-left: 25px;
 }
+.pala {
+  padding: 40px 25px 0 0;
+  text-align: right;
+}
+.pala-img {
+  display: block;
+  background: url('https://avatars0.githubusercontent.com/u/13921262');
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 25px;
+  float: right;
+}
+.nama-blog {
+  font-size: 45px;
+  line-height: .5;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+.deskripsi-blog {
+  margin: 15px 0 0;
+  font-style: italic;
+}
+
+a.judul-post {
+  font-size: 38px;
+  font-family: 'Poiret One';
+  color: #333
+}
+h1 .judul-post {
+  padding-top: 30px
+}
+.breadcumb:before {
+  font-family: 'CustomFA';
+  content: '\f010\20'
+}
+.b-l:before {
+  font-family: 'CustomFA';
+  content: '\20\f002\20'
+}
+.b-s:before {
+  font-family: 'CustomFA';
+  content: '\20\f006';
+  font-size: 10px
+}
+.b-t {
+  display: inline-block;
+  margin: 0;
+  font-weight: bold
+}
+ul.info-post {
+  padding: 0;
+  margin-top: 0;
+}
+ul.info-post li {
+  list-style: none;
+}
+.waktu:before {
+  font-family: 'CustomFA';
+  content: '\f012\20';
+}
+.komen:before {
+  font-family: 'CustomFA';
+  content: '\f00c\20';
+}
+.pensil {
+  position: absolute;
+  right: 0;
+  margin-top: -15px
+}
+.pensil:before {
+  font-family: 'CustomFA';
+  font-size: 18px;
+  content: '\f003';
+  color: #333;
+}
+.blog-admin a:after {
+  display: none
+}
+.sharethis,
+.share {
+  position: relative;
+}
+.sharethis {
+  margin: 20px 0px 10px;
+}
+.share,
+h2.share-title{
+  display: block;
+  float: left;
+}
+h2.share-title {
+  margin: 0;
+  padding-right: 6px;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+.sharethis a.fb,
+.sharethis a.tw,
+.sharethis a.gp {
+  color: #333;
+  padding: 2px 14px;
+  margin: 0;
+  -webkit-box-shadow: inset 0px 0px 1px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: inset 0px 0px 1px 0px rgba(0,0,0,0.5);
+  -o-box-shadow: inset 0px 0px 1px 0px rgba(0,0,0,0.5);
+  box-shadow: inset 0px 0px 1px 0px rgba(0,0,0,0.5);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+}
+.sharethis a.fb:after,
+.sharethis a.tw:after,
+.sharethis a.gp:after {
+  display: none !important;
+}
+.sharethis a.gp:hover,
+.sharethis a.fb:hover,
+.sharethis a.tw:hover {
+  -webkit-box-shadow: 0px 4px rgba(0,0,0,.2) inset, 0px 3px 3px rgba(0,0,0,.1);
+  -moz-box-shadow: 0px 4px rgba(0,0,0,.2) inset, 0px 3px 3px rgba(0,0,0,.1);
+  -o-box-shadow: 0px 4px rgba(0,0,0,.2) inset, 0px 3px 3px rgba(0,0,0,.1);
+  box-shadow: 0px 4px rgba(0,0,0,.2) inset, 0px 3px 3px rgba(0,0,0,.1);
+  background: #eee;
+}
