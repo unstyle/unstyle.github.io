@@ -1,0 +1,110 @@
+::-webkit-selection {
+  background: rgba(68, 68, 68, .9);
+  color: #eee;
+}
+::-moz-selection {
+  background: rgba(68, 68, 68, .9);
+  color: #eee;
+}
+::selection {
+  background: rgba(68, 68, 68, .9);
+  color: #eee;
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/raleway.eot');
+  src: local('Raleway'), url('fonts/raleway.woff') format('woff'), url('fonts/raleway.svg#Raleway') format('svg'), url('fonts/raleway.eot?#iefix') format('embedded-opentype'), url('fonts/raleway.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'CustomFA';
+  font-weight: normal;
+  font-style: normal;
+  src: url('fonts/custom-fa.eot');
+  src: url('fonts/custom-fa.eot?#iefix') format('embedded-opentype'), url('fonts/custom-fa.ttf') format('truetype'), url('fonts/custom-fa.woff') format('woff'), url('fonts/custom-fa.svg#custom-fa') format('svg');
+}
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 62.5%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+body {
+  font-family: 'Raleway';
+  font-size: 1.5em;
+  font-weight: normal;
+  line-height: 1.5;
+  background: url(bg.png) #f9f9f9;
+  color: #555;
+  margin: 0;
+}
+a, a:hover {
+  color: #009eec;
+  text-decoration: none;
+  outline: none;
+  outline: 0;
+  display: inline-block;
+}
+img {
+  vertical-align: middle;
+  border: 0;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.section {
+  position: relative;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto
+}
+.widget:before, .widget:after, .section:before, .section:after {
+  clear: both;
+  display: table;
+  content: ""
+}
+@media (min-width:768px) {
+  .section {
+    width: 750px
+  }
+}
+@media (min-width:992px) {
+  .section {
+    width: 970px
+  }
+}
+#null { display: none !important }
+.cost {
+  position: relative;
+  min-height: 1px;
+  float: left;
+}
+.pala {
+  width: 29.1667%;
+  *width: 29.1357%;
+  margin-right: -100%;
+}
+.post-outer {
+  width: 70.8333%;
+  *width: 70.8023%;
+  display: block;
+  margin-left: 29.1667%;
+}
+.post-outer:before {
+  clear: both;
+  content: "";
+  position: fixed;
+  height: 100%;
+  border-right: 1px solid #ccc;
+}
+.post {
+  padding-left: 25px;
+}
