@@ -66,7 +66,7 @@ img {
   margin-right: auto;
   margin-left: auto
 }
-.widget:before, .widget:after, .section:before, .section:after {
+.post:before, .post:after, .section:before, .section:after {
   clear: both;
   display: table;
   content: ""
@@ -87,24 +87,24 @@ img {
   min-height: 1px;
   float: left;
 }
-.pala {
+.kiri {
   width: 29.1667%;
   *width: 29.1357%;
   margin-right: -100%;
 }
-.post-outer {
+.kanan {
   width: 70.8333%;
   *width: 70.8023%;
   display: block;
   margin-left: 29.1667%;
 }
-.post-outer:before {
+.kanan:before {
   clear: both;
   content: "";
   position: fixed;
   height: 100%;
   border-right: 1px solid #ccc;
 }
-.post {
+.post, .comments {
   padding-left: 25px;
 }
