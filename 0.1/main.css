@@ -18,6 +18,12 @@
   src: local('Raleway'), url('fonts/raleway.woff') format('woff'), url('fonts/raleway.svg#Raleway') format('svg'), url('fonts/raleway.eot?#iefix') format('embedded-opentype'), url('fonts/raleway.ttf') format('truetype');
 }
 @font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+@font-face {
   font-family: 'CustomFA';
   font-weight: normal;
   font-style: normal;
@@ -81,7 +87,6 @@ img {
     width: 970px
   }
 }
-#null { display: none !important }
 .cost {
   position: relative;
   min-height: 1px;
